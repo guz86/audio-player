@@ -1,0 +1,111 @@
+.content {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.content::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./assets/img/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(6px);
+    z-index: -1;
+}
+
+.player {
+    height: 300px;
+    width: 220px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #33383e 0%, #17191d 100%);
+    margin: 0 auto;
+    display: block;
+    border: solid 2px #3e434c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cover {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    border: solid 2px #3e434c;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.name {
+    color: #E8540A;
+    font-size: 25px;
+}
+
+.controls-play {
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    background-color: #E8540A;
+}
+
+.controls-backward {
+    height: 20px;
+    width: 20px;
+    border-radius: 40px;
+    background-color: #E8540A;
+}
+
+.controls-forward {
+    height: 20px;
+    width: 20px;
+    border-radius: 40px;
+    background-color: #E8540A;
+}
+
+
+.line {
+    background: black;
+    height: 6px;
+
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: inset -2px -2px 2px 0px rgb(66, 70, 74),
+        inset 1px 1px 1px -1px rgb(0, 0, 0);
+}
+
+.inner_line {
+    width: 60%;
+    height: 4px;
+    background: radial-gradient(at top left, #c92711 0%, #ffc107 90%);
+    margin: 0px 1px;
+    border-radius: 5px;
+}
+
+.slider {
+    margin: 20px auto;
+    width: 70%;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #E8540A;
+}
