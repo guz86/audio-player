@@ -10,6 +10,7 @@ fetch('./audioData.json')
 
         coverImage.src = data[currentTrackIndex].cover;
         document.getElementById("track-title").textContent = data[currentTrackIndex].title;
+        document.getElementById("track-author").textContent = data[currentTrackIndex].author;
         content.style.setProperty('--bg-image', `url('${data[currentTrackIndex].cover}')`);
 
         const currentTimeDisplay = document.getElementById("current-time");
@@ -81,6 +82,7 @@ fetch('./audioData.json')
             audio.src = data[index].audio;
             coverImage.src = data[index].cover;
             document.getElementById("track-title").textContent = data[index].title;
+            document.getElementById("track-author").textContent = data[index].author;
             audio.play();
             playPauseIcon.classList.remove("toggle-play");
             playPauseIcon.classList.add("toggle-pause");

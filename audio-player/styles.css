@@ -127,3 +127,32 @@
     cursor: pointer;
     content: url('./assets/svg/pause.png');
 }
+
+.footer {
+    color: #E8540A;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer a {
+    color: #E8540A;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.course-logo {
+    height: 30px;
+    width: auto;
+}
+
+.author{
+    color: #E8540A;
+    font-size: 15px;
+}

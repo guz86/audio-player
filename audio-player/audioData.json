@@ -1,16 +1,19 @@
 [
     {
         "title": "DREAMS",
+        "author": "darkambient",
         "audio": "./assets/music/1.mp3",
         "cover": "./assets/img/1.jpg"
     },
     {
         "title": "Vague",
+        "author": "nightdrive",
         "audio": "./assets/music/2.mp3",
         "cover": "./assets/img/2.jpg"
     },
     {
         "title": "LeadWave",
+        "author": "sadhours",
         "audio": "./assets/music/3.mp3",
         "cover": "./assets/img/3.jpg"
     }
