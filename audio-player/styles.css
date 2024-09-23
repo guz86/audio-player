@@ -13,7 +13,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('./assets/img/1.jpg');
+    background-image: var(--bg-image);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,6 +66,7 @@
 }
 
 .controls-backward {
+    cursor: pointer;
     height: 20px;
     width: 20px;
     border-radius: 40px;
@@ -75,6 +76,7 @@
 }
 
 .controls-forward {
+    cursor: pointer;
     height: 20px;
     width: 20px;
     border-radius: 40px;
@@ -117,10 +119,11 @@
 }
 
 .controls-play.toggle-play {
+    cursor: pointer;
     content: url('./assets/svg/play.png');
 }
 
 .controls-play.toggle-pause {
+    cursor: pointer;
     content: url('./assets/svg/pause.png');
 }
-

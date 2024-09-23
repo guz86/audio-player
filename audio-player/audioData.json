@@ -1,0 +1,17 @@
+[
+    {
+        "title": "DREAMS",
+        "audio": "./assets/music/1.mp3",
+        "cover": "./assets/img/1.jpg"
+    },
+    {
+        "title": "Vague",
+        "audio": "./assets/music/2.mp3",
+        "cover": "./assets/img/2.jpg"
+    },
+    {
+        "title": "LeadWave",
+        "audio": "./assets/music/3.mp3",
+        "cover": "./assets/img/3.jpg"
+    }
+]

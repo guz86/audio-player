@@ -17,15 +17,15 @@
 </head>
 
 <body>
-    <div class="content">
+    <div class="content" id="cover-image-big">
         <div class="player">
-            <img class="cover" src="./assets/img/1.jpg" alt="1">
-            <div class="name">Name song</div>
+            <img class="cover" id="cover-image" src="./assets/img/1.jpg" alt="1">
+            <div class="name" id="track-title">Name song</div>
 
             <div class="slider">
                 <div class="time">
-                    <div>0:07</div>
-                    <div>0:30</div>
+                    <div class="current">0:00</div>
+                    <div class="length">0:30</div>
                 </div>
                 <div class="line">
                     <div class="inner_line"></div>
@@ -33,9 +33,9 @@
             </div>
 
             <div class="controls">
-                <img class="controls-backward" src="./assets/svg/backward.png" alt="backward">
+                <img class="controls-backward" src="./assets/svg/backward.png" alt="backward" id="prev-track">
                 <img class="controls-play toggle-play" src="./assets/svg/play.png" alt="play" id="play-pause-icon">
-                <img class="controls-forward" src="./assets/svg/forward.png" alt="forward">
+                <img class="controls-forward" src="./assets/svg/forward.png" alt="forward" id="next-track">
             </div>
         </div>
         <script src="./script.js"></script>
