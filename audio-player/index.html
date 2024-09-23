@@ -5,10 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio player Gordienko</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
+    <div class="content" id="cover-image-big">
+        <div class="player">
+            <img class="cover" id="cover-image" src="./assets/img/1.jpg" alt="1">
+            <div class="name" id="track-title">Name song</div>
+            <div class="author" id="track-author">Name author</div>
 
+            <div class="slider">
+                <div class="time">
+                    <div class="current" id="current-time">0:00</div>
+                    <div class="length" id="track-duration">0:30</div>
+                </div>
+                <div class="line" id="line">
+                    <div class="inner_line" id="progress-bar"></div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <img class="controls-backward" src="./assets/svg/backward.png" alt="backward" id="prev-track">
+                <img class="controls-play toggle-play" src="./assets/svg/play.png" alt="play" id="play-pause-icon">
+                <img class="controls-forward" src="./assets/svg/forward.png" alt="forward" id="next-track">
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-content">
+                <a href="https://github.com/guz86" target="_blank">GitHub</a>
+                <span>© 2024</span>
+                <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
+                    <img src="https://rs.school/assets/rss-logo-CM8B7fA7.svg" alt="Логотип" class="course-logo">
+                </a>
+            </div>
+        </footer>
+        <script src="./script.js"></script>
 </body>
 
 </html>
